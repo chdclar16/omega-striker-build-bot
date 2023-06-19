@@ -64,7 +64,7 @@ TOKEN = "<YOUR_TOKEN>"
 ```
 channel_id = "<channel_id>"
 ```
-** Make sure you comment out the following if you'd like the bot to listen in on the whole server instead of just one channel. **
+__**Make sure you comment out the following if you'd like the bot to listen in on the whole server instead of just one channel.**__
 
 7. Run the bot:
 ```

@@ -10,9 +10,9 @@ The Omega Strikers Bot is a Discord bot designed to provide information and buil
 
 
 ## Requirements(requirements.txt)
-Python 3.7 or higher
-discord.py library
-aiohttp library
+- Python 3.7 or higher
+- discord.py library
+- aiohttp library
 
 
 ## Installation
@@ -60,6 +60,12 @@ pip install -r requirements.txt
 ```
 TOKEN = "<YOUR_TOKEN>"
 ```
+- (optional) If you want to limit your usage into a channel, also add another line inside of config.py, replacing `<channel_id>` with the desired channel id from discord.
+```
+channel_id = "<channel_id>"
+```
+** Make sure you comment out the following if you'd like the bot to listen in on the whole server instead of just one channel. **
+
 7. Run the bot:
 ```
 python bot.py

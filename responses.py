@@ -136,7 +136,8 @@ def get_response(message: str):
 
                 - **PRIMETIME and HOTSHOT**
                 Primary with 2 charges and reduced cooldown if you hit the Core with an ability
-                """
+                """,
+                None
                 ]
     elif p_message == 'x':
         return ["https://steamuserimages-a.akamaihd.net/ugc/2019347876656144392/0542FFAE240B49988F5D53978A3612332E7AF892/", None,

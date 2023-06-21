@@ -1,5 +1,5 @@
 # Omega Strikers Bot
-The Omega Strikers Bot is a Discord bot designed to provide information and builds for the game Omega Strikers. By using the command `/os {striker_name}`, users can retrieve build details for a specific striker.
+The Omega Strikers Bot is a Discord bot designed to provide information and builds for the game Omega Strikers. By using the command `/striker {striker_name}`, users can retrieve build details for a specific striker.
 
 
 ## Features
@@ -81,9 +81,9 @@ python bot.py
 ## Usage
 1. Invite the bot to your Discord server using the invite link generated on the Discord Developer Portal.
 
-2. In your Discord server, use the command /os {striker_name} in any channel where the bot is present.
+2. In your Discord server, use the command `/striker {striker_name}` in any channel where the bot is present.
 
-    - Example: /os kai
+    - Example: `/striker kai`
 
     - Replace {striker_name} with the name of the desired striker.
 3. The bot will respond with the build details for the specified striker, including associated images for the forward and goalie roles.

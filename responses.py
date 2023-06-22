@@ -285,7 +285,7 @@ def get_response(message: str):
                 Primary has 2 charges and lower cooldown, good for refreshing the secondary buff duration
                 """,
                 None]
-    elif p_message == 'vyze':
+    elif p_message == 'vyce':
         return ["https://steamuserimages-a.akamaihd.net/ugc/2019347876656145023/4C70742479722CD6F446E3EFED6FC7F565429F0F/", None,
                 """
                 Good Awakening Combinations
